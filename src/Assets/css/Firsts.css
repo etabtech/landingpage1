@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* Global colours */
+    --palette-black: #000000;
+    --palette-white: #FFFFFF;
+    --palette-fontblue: #0D65D9;
+    --palette-boxbackgroudblue: #E7F0FC;
+    --palette-greyfont: #97A4AF;
+
+    /* Global fonts */
+    --fs-roboto-400: 'Roboto';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fs-roboto-400);
+}
+
+.div_firstsec {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 30vh;
+
+}
+
+.first_part {
+    width: 50%;
+    height: 100%;
+    color: var(--palette-greyfont);
+    background-color: var(--palette-white);
+    padding-left: 170px;
+}
+
+.first_part span {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--palette-fontblue);
+
+}
+
+mark {
+    background-color: yellow;
+    color: var(--palette-fontblue);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#email {
+    border: 1px solid var(--palette-greyfont);
+    padding-left: 10px;
+    width: 75%;
+    height: 36px;
+    border-radius: 3px;
+}
+
+.email_btn {
+    background-color: var(--palette-fontblue);
+    color: var(--palette-white);
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 7px;
+}
+
+#email::placeholder {
+    color: var(--palette-greyfont);
+}
+
+.firstsec_img {
+    margin-left: 140px;
+    width: 55%;
+    position: absolute;
+    top: -25px;
+
+}
+
+.second_part {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: var(--palette-boxbackgroudblue);
+}
+@media only screen and (max-width: 1100px){
+    .first_part {
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .div_firstsec {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .first_part {
+        width: 100%;
+        height: 50%;
+        /* text-align: center; */
+        padding: 0px 10vw;
+    }
+
+    .second_part {
+        width: 100%;
+        height: 30%;
+        margin-top: 60px;
+        position: relative;
+        background-color: var(--palette-boxbackgroudblue);
+    }
+
+    .firstsec_img {
+        margin-left: 140px;
+        width: 55%;
+        position: absolute;
+        top: -40px
+    }
+}
+
+@media only screen and (max-width: 561px) {
+    .first_part {
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+        margin-bottom: 15%;
+    }
+
+    .firstsec_img {
+        margin: 0px 20%;
+        width: 55%;
+        position: absolute;
+        top: -40px
+    }
+}

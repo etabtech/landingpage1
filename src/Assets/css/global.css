@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* Global colours */
+    --palette-black:#000000;
+    --palette-white:#FFFFFF;
+    --palette-fontblue: #0D65D9;
+    --palette-boxbackgroudblue: #E7F0FC;
+    --palette-greyfont: #97A4AF;
+
+    /* Global fonts */
+    --fs-roboto-400: 'Roboto';
+}
+
+*{
+    font-family: var(--fs-roboto-400);
+
+}
+body{
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}

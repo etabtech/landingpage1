@@ -1,0 +1,102 @@
+@import url(./global.css);
+
+.section_3 .inner_row_container{
+    background: #E7F0FB;
+    width: 80%;
+}
+
+.section_3 .inner_row_container .inner_banner_1{
+    position: relative;
+    left:50px;
+    padding-top: 69px;
+}
+
+.section_3 .inner_row_container .inner_banner_2{
+    position: relative;
+    left:60px;
+}
+
+.section_3 .inner_row_container .inner_banner_2 img{
+    margin-left: 80px;
+}
+
+.section_3 .inner_row_container .inner_banner_1 .seeMore{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #00221C;
+}
+
+.section_3 .inner_row_container .inner_banner_1 h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section_3 .inner_row_container .inner_banner_1 .about{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #51596C;
+}
+
+.section_3 .inner_row_container .inner_banner_1 .banner_inner_text_1 .container_2_text h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--palette-fontblue);
+}
+
+.section_3 .inner_row_container .inner_banner_1 .banner_inner_text_1 .container_2_text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #51596C;
+}
+
+.section_3 .inner_row_container .inner_banner_1 .banner_inner_text_2 .container_2 h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--palette-fontblue);
+}
+
+.section_3 .inner_row_container .inner_banner_1 .banner_inner_text_2 .container_2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #51596C;
+}
+
+.section_3 .inner_row_container .inner_banner_1 .banner_inner_text_2 .container_1 img{
+    margin-left: -5px;
+}
+
+@media only screen and (max-width:990px){
+    .section_3 .inner_row_container{
+        width: 90%;
+    }
+
+    .section_3 .inner_row_container .inner_banner_1{
+        left:30px;
+        padding-top: 50px;
+    }
+
+    .section_3 .inner_row_container .inner_banner_2{
+        left:0;
+    }
+
+    .section_3 .inner_row_container .inner_banner_2 img{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:490px){
+    .section_3 .inner_row_container{
+        width: 80%;
+    }
+    
+    .section_3 .inner_row_container .inner_banner_1{
+        left:0;
+    }
+}

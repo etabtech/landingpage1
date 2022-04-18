@@ -29,6 +29,7 @@ z-index: 2;
   max-width: 100vw;
   background-color:  white;
   opacity: 0.8;
+  
 }
 
 .navbar ul{
@@ -37,7 +38,7 @@ z-index: 2;
   align-items: center;
 }
 .header img{
-  width: 60px;
+  width: 100px;
   height: auto;
   margin: 20px 0px 0 0;
   
@@ -54,10 +55,13 @@ z-index: 2;
 }
 .navbar ul li a{
   text-decoration:none;
-  font-size: 20px;
+
+  font-size: 16px;
+  font-weight: 600;
   color:black;
+  
 }
-.navbar ul li a:hover{
+.hoverr:hover{
   color: var(--palette-fontblue);
 }
 .burger{
@@ -75,7 +79,7 @@ z-index: 2;
   margin: 2px;
   border: 1px black solid;
 }
-.navbar ul li a::before {
+/* .navbar ul li a::before {
   content:'';
   width:0%;
   height:1px;
@@ -86,7 +90,7 @@ z-index: 2;
 .navbar ul li a:hover::before {
   width:100%;
   transition:all .5s;
-}
+} */
 
 @media only screen and (max-width: 900px) {
 

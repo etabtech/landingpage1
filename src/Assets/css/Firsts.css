@@ -46,7 +46,7 @@ mark {
     background-color: yellow;
     color: var(--palette-fontblue);
     padding: 3px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #email {
